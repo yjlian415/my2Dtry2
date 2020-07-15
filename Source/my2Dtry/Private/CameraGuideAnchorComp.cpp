@@ -7,4 +7,5 @@ UCameraGuideAnchorComp::UCameraGuideAnchorComp(const FObjectInitializer& ObjectI
 	: Super(ObjectInitializer)
 {
 	focusWeight = 1.0f;
+	//UKismetSystemLibrary::QuitGame(this, nullptr, EQuitPreference::Quit);
 }

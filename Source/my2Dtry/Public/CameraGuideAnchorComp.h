@@ -13,7 +13,7 @@ UCLASS(Blueprintable, ClassGroup = "CameraGuide", hidecategories = (Object, LOD,
 class MY2DTRY_API UCameraGuideAnchorComp : public UBoxComponent
 {
 	GENERATED_BODY()
-	
+	FCalculateCustomPhysics OnCalculateCustomPhysics;
 public:
 	UCameraGuideAnchorComp(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 
