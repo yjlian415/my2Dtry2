@@ -42,7 +42,8 @@ public class tryNode : ModuleRules
                 "BlueprintGraph",
                 "UnrealEd",
                 "EditorStyle",
-                "graphEditor"
+                "graphEditor",
+                "InputCore"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

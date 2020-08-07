@@ -17,7 +17,7 @@
 	"Modules": [
 		{
 			"Name": "tryNode",
-			"Type": "Runtime",
+			"Type": "RunTime",
 			"LoadingPhase": "Default"
 		}
 	]
